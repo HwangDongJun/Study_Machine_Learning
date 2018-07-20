@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda38b6a-3bda-4f86-9873-a16bd8dc1eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic_Operations/01Hello_TensorFlow!.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic_Operations/02Computational_Graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic_Operations/03Placeholder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear_Regression/linear_regression1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear_Regression/linear_regression2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear_Regression_minimize_cost/minimize_cost1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear_Regression_minimize_cost/minimize_cost2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear_Regression_minimize_cost/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,14 +23,24 @@
     <SUITE FILE_PATH="coverage/Study_Machine_Learning$linear_regression.coverage" NAME="linear_regression Coverage Results" MODIFIED="1532018104970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
     <SUITE FILE_PATH="coverage/Study_Machine_Learning$minimize_cost1.coverage" NAME="minimize_cost1 Coverage Results" MODIFIED="1532020231503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression_minimize_cost" />
     <SUITE FILE_PATH="coverage/Study_Machine_Learning$linear_regression2.coverage" NAME="linear_regression2 Coverage Results" MODIFIED="1532018807354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
+    <SUITE FILE_PATH="coverage/Study_Machine_Learning$multi_variable_Linear_Regression1.coverage" NAME="multi-variable_Linear_Regression1 Coverage Results" MODIFIED="1532101672130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multi-Variable_Linear_Regression" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="minimize_cost2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Linear_Regression_minimize_cost/minimize_cost2.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="multi-variable_Linear_Regression3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="494">
+              <caret line="32" selection-start-line="25" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multi-variable_Linear_Regression4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -62,6 +68,11 @@
         <option value="$PROJECT_DIR$/Linear_Regression_minimize_cost/readme.txt" />
         <option value="$PROJECT_DIR$/Linear_Regression_minimize_cost/minimize_cost1.py" />
         <option value="$PROJECT_DIR$/Linear_Regression_minimize_cost/minimize_cost2.py" />
+        <option value="$PROJECT_DIR$/Multi-Variable_Linear_Regression/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression2.py" />
+        <option value="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression1.py" />
+        <option value="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression2.py" />
+        <option value="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression3.py" />
+        <option value="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression4.py" />
       </list>
     </option>
   </component>
@@ -74,8 +85,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="676" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -95,7 +107,7 @@
             <path>
               <item name="Study_Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study_Machine_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Linear_Regression_minimize_cost" type="462c0819:PsiDirectoryNode" />
+              <item name="Multi-Variable_Linear_Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -111,7 +123,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/HwangDongJun/study_algorithm-baekjoon-.git" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning\Multi-Variable_Linear_Regression" />
       <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning\basic_operations" />
       <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning" />
     </key>
@@ -128,26 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.minimize_cost2">
-    <configuration name="03Placeholder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study_Machine_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\군\PycharmProjects\Study_Machine_Learning\basic_operations\03Placeholder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.multi-variable_Linear_Regression1">
     <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study_Machine_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,20 +221,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="multi-variable_Linear_Regression1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study_Machine_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multi-Variable_Linear_Regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.03Placeholder" />
       <item itemvalue="Python.linear_regression" />
       <item itemvalue="Python.linear_regression2" />
       <item itemvalue="Python.minimize_cost1" />
       <item itemvalue="Python.minimize_cost2" />
+      <item itemvalue="Python.multi-variable_Linear_Regression1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multi-variable_Linear_Regression1" />
         <item itemvalue="Python.minimize_cost2" />
         <item itemvalue="Python.minimize_cost1" />
         <item itemvalue="Python.linear_regression2" />
         <item itemvalue="Python.linear_regression" />
-        <item itemvalue="Python.03Placeholder" />
       </list>
     </recent_temporary>
   </component>
@@ -255,30 +271,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3344" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23054332" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" weight="0.32892805" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23343849" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11420205" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32892805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +303,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Basic_Operations/01Hello_TensorFlow!.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -320,9 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,8 +361,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression_minimize_cost/minimize_cost2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="266">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multi-Variable_Linear_Regression/data-01-test-score.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="32" selection-start-line="25" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multi-Variable_Linear_Regression/multi-variable_Linear_Regression4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
         </state>
       </provider>
     </entry>
