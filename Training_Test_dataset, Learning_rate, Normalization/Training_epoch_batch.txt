@@ -1,0 +1,6 @@
+epoch는 all the training을 완료하는 것을 의미한다.
+batch size는 training를 하기 위해 data를 나누는 것을 의미한다.
+iterations는 반복을 하는 것
+
+ex) 1000 training examples가 있다. batch size가 500이다.
+    2 iterations를 하면 1 epoch인 것이다.
