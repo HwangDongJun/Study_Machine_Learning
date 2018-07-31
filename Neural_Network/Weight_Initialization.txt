@@ -1,0 +1,8 @@
+Vanishing gradient현상이 발생을 하게 된다. 학습을 진행하면서 너무 깊은 학습이 되어버리면 backpropagation을 통해서는 학습이 되지 않는다.
+vanishing_gradient.PNG참고
+
+해결방법은 ReLU의 사용과 Weight의 초기화를 잘하는 것이다. (ReLU의 사용은 ReLU.txt참고)
+
+현재 쓰이는 방법 중에 한가지
+W = np.random.randn(fan_in, fan_out) / np.sqrt(fan_in/2) 이다.
+여기서 fan_in은 input, fan_out은 output이다.

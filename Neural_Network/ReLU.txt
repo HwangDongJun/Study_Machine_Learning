@@ -1,0 +1,12 @@
+-기존에 사용하던 Activation function인 sigmoid는 0~1의 숫자만 나오게 되므로, Neural Network를 사용하여 Deep하게 가게 되면 숫자가 계속 곱해지면서 작아지게 된다.
+-Backpropagation이 진행되면서 점점 그 숫자가 점점 더 작아져서 영향을 끼치지 못하게 되버리므로, 학습이 되지 못한다.
+
+-ReLU의 사용
+import tensorflow as tf
+
+L1 = tf.sigmoid(tf.matmul(X, W1) + b1)
+-기존에 사용하던 방법이다. sigmoid를...
+L1 = tf.nn.relu(tf.matmul(X, W1) + b1)
+-새롭게 사용하는 방법이다. ReLU
+
+-input layer와 hidden layer는 ReLU를 사용하더라도 마지막 output layer는 0~1의 숫자를 뽑기 위해 sigmoid를 사용한다.

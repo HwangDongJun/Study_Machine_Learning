@@ -1,0 +1,19 @@
+간단한 Dropout구현방법
+
+dropout_rate = tf.placeholder("float")
+_L1 = tf.nn.relu(tf.add(tf.matmul(X, W1), B1))
+L1 = tf.nn.dropout(_L1, dropout_rate)
+#기본적으로 random하게 dropout_rate를 정하게 되는데, 0.5이면 절반을 drop하게 된다.
+
+--TRAIN:
+sess.run(optimizer, feed_dict={X: batch_xs, Y: batch_ys, dropout_rate: 0.7})
+#TRAIN에서만 dropout을 시키면서 학습을 하는 것이다!
+
+--EVALUATION:
+print("Accuracy: ", accuracy.eval({X: mnist.text.images, Y: mnist.test.labels, dropout_rate: 1})
+#실제적으로 test를 진행할때는 전체를 가지고 해야 하므로, dropout_rate가 1인 것이다.
+
+------------------------------------------------------
+Ensemble(앙상블)
+각기 다른 training set을 가지고 각기 다른 Learning Model을 이용하여 학습을 시킨 결과를 합친다.
+실제로 도움이 되는 방법이다. 이게 앙상블이다.
