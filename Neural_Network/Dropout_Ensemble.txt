@@ -2,7 +2,7 @@
 
 dropout_rate = tf.placeholder("float")
 _L1 = tf.nn.relu(tf.add(tf.matmul(X, W1), B1))
-L1 = tf.nn.dropout(_L1, dropout_rate)
+L1 = tf.nn.dropout(_L1, dropout_rate)   | dropout_rate대신에 keep_prob=값 으로 몇%를 유지할 것인가로도 지정할 수 있다.
 #기본적으로 random하게 dropout_rate를 정하게 되는데, 0.5이면 절반을 drop하게 된다.
 
 --TRAIN:
@@ -11,7 +11,7 @@ sess.run(optimizer, feed_dict={X: batch_xs, Y: batch_ys, dropout_rate: 0.7})
 
 --EVALUATION:
 print("Accuracy: ", accuracy.eval({X: mnist.text.images, Y: mnist.test.labels, dropout_rate: 1})
-#실제적으로 test를 진행할때는 전체를 가지고 해야 하므로, dropout_rate가 1인 것이다.
+#실제적으로 test를 진행할때는 전체를 가지고 해야 하므로, dropout_rate가 1인 것이다. 여기서도 마찬가지로 keep_prob: 1 이어야 한다.
 
 ------------------------------------------------------
 Ensemble(앙상블)

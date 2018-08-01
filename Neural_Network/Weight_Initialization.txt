@@ -6,3 +6,10 @@ vanishing_gradient.PNG참고
 현재 쓰이는 방법 중에 한가지
 W = np.random.randn(fan_in, fan_out) / np.sqrt(fan_in/2) 이다.
 여기서 fan_in은 input, fan_out은 output이다.
+
+
+사용하는 방법 중 하나가 xavier이다.
+ex) W = tf.get_variable("W", shape=[입력값, 출력값], initializer=tf.contrib.layers.xavier_initializer())이다.
+-----------------------------------------------------------------------------------------------------------------
+
+이외의 Optimizers.PNG의 경우 여러가지 optimizer의 종류를 보여준다.
