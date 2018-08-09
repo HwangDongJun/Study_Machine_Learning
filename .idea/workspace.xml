@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda38b6a-3bda-4f86-9873-a16bd8dc1eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Convolution_Neural_Network/Convolution_Neural_Network1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Convolution_Neural_Network/Convolution_Neural_Network2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Convolution_Neural_Network/Max_Pooling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics/RNN_Basics1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics/RNN_Basics2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics/RNN_Basics3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Hi_Hello_Training/RNN_Hi_Hello_Training1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Hi_Hello_Training/hihello.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +29,20 @@
     <SUITE FILE_PATH="coverage/Study_Machine_Learning$multi_variable_Linear_Regression1.coverage" NAME="multi-variable_Linear_Regression1 Coverage Results" MODIFIED="1532101672130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multi-Variable_Linear_Regression" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="RNN_Hi_Hello_Training1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Hi_Hello_Training/RNN_Hi_Hello_Training1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+              <folding>
+                <element signature="e#42#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,6 +96,11 @@
         <option value="$PROJECT_DIR$/Convolution_Neural_Network/Convolution_Neural_Network2.py" />
         <option value="$PROJECT_DIR$/Convolution_Neural_Network/Convolution_Neural_Network1.py" />
         <option value="$PROJECT_DIR$/Convolution_Neural_Network/Max_Pooling.py" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics.py" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics2.py" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics3.py" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics3.txt" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Hi_Hello_Training/RNN_Hi_Hello_Training1.py" />
       </list>
     </option>
   </component>
@@ -94,8 +114,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="173" />
-    <option name="y" value="-11" />
+    <option name="x" value="28" />
     <option name="width" value="1346" />
     <option name="height" value="697" />
   </component>
@@ -116,7 +135,13 @@
             <path>
               <item name="Study_Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study_Machine_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Convolution_Neural_Network" type="462c0819:PsiDirectoryNode" />
+              <item name="Recurrent_Neural_Network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study_Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study_Machine_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Recurrent_Neural_Network" type="462c0819:PsiDirectoryNode" />
+              <item name="RNN_Hi_Hello_Training" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,11 +160,11 @@
       <recent name="https://github.com/HwangDongJun/study_algorithm-baekjoon-.git" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning\Recurrent_Neural_Network\RNN_Hi_Hello_Training" />
+      <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning\Recurrent_Neural_Network\RNN_Basics" />
       <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning\Neural_Network" />
       <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning\Backpropagation" />
       <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning\Multi-Variable_Linear_Regression" />
-      <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning\basic_operations" />
-      <recent name="C:\Users\군\PycharmProjects\Study_Machine_Learning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,7 +315,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3371522" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.31914893" />
@@ -298,11 +324,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.31914893" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23895253" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13086233" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24252492" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19623233" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" weight="0.27458397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -313,6 +338,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,9 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Convolution_Neural_Network.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Logistic_Regression/Logistic_Regression1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -508,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
           <caret line="32" selection-start-line="25" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,21 +569,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Convolution_Neural_Network/Convolution_Neural_Network1.py">
+    <entry file="file://$PROJECT_DIR$/Convolution_Neural_Network/Max_Pooling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="285">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics/RNN_Basics3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics/RNN_Basics2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Convolution_Neural_Network/Max_Pooling.py">
+    <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Basics/RNN_Basics1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="58" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Hi_Hello_Training/hihello.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/RNN_Hi_Hello_Training/RNN_Hi_Hello_Training1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+          <folding>
+            <element signature="e#42#65#0" expanded="true" />
           </folding>
         </state>
       </provider>

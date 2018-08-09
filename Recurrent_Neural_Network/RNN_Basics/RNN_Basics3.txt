@@ -1,0 +1,7 @@
+x_data = np.array([[h, e, l, l, o],
+                   [e, o, l, l, l],
+                   [l, l, e, e, l]], dtype=np.float32)
+shape의 경우 3, 5, 4로 RNN_Basics2와 마찬가지로 One_hot을 이용한 것이다.
+여기서 3은 batch_size라고 불리며, 입력 값을 3가지 방법으로 넣게 된다.
+
+출력결과는 3과 5는 동일하며, 4는 hidden_size=2로 인해 2로 나온다.
