@@ -1,0 +1,14 @@
+(Softmax_Layer.PNG참고)
+두개의 코드를 살펴볼 것이다.
+1) X_for_softmax = tf.reshape(outputs, [-1, hidden_size])
+
+outputs으로 나온 출력들을 softmax를 위해서 하나로 reshape하는 과정이다. 어차피 다르지 않은 hidden layer에서 나온 출력이기 때문에 굳이 여러개의 softmax를 두어 메모리를 잡아먹을
+필요가 없다.
+
+2) outputs = tf.reshape(outputs, [batch_size, seq_length, num_classes])
+
+중간에 softmax과정을 지나온 후, 다시 기존에 나눠져 있던 개수로 reshape해주는 과정이다.
+
+
+이전에 sequence_loss에서 logits=outputs를 그대로 넣으면 좋지 않다는 이야기를 했었는데,
+위의 softmax과정을 거친 후에 들어가는 outputs이 올바른 입력값에 해당하는 것이다.

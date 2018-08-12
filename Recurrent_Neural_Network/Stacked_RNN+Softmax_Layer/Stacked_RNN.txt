@@ -1,0 +1,14 @@
+기존에 사용하던 방법에서 추가사항에 대한 것만 적으려 한다.
+
+기존에 사용
+-> cell = rnn.BasicLSTMCell(hidden_size, state_is_tuple=True)
+
+추가사항
+-> cell = rnn.BasicLSTMCell(hidden_size, state_is_tuple=True)
+-> ★cell = rnn.MultiRNNCell([cell] * 2, state_is_tuple=True)★
+
+해당 추가사항은 hidden layer의 계층수를 늘려주는 것이다. 기존의 방법으로는 input layer 1개, hidden layer 1개, output layer 1개에 해당한다.
+물론 가로로 wide한 부분은 제외하고 세로로 wide한 계층수를 의미하는 것이다.
+
+여기서 [cell] * 2를 통해서 hidden layer의 계층이 2개로 바뀐다. 만약 [cell] * 100 이라면 hidden layer의 계층이 100개로 바뀌는 것이다.
+
