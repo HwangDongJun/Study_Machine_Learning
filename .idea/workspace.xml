@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda38b6a-3bda-4f86-9873-a16bd8dc1eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/Stacked_RNN+Softmax_Layer/Softmax_Layer.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/Stacked_RNN+Softmax_Layer/Softmax_Layer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/Stacked_RNN+Softmax_Layer/Stacked_RNN.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/Dynamic_RNN/Dynamic_RNN.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_with_Time_Series_Data/RNN_with_Time_Series_Data1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,17 +26,7 @@
     <SUITE FILE_PATH="coverage/Study_Machine_Learning$multi_variable_Linear_Regression1.coverage" NAME="multi-variable_Linear_Regression1 Coverage Results" MODIFIED="1532101672130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multi-Variable_Linear_Regression" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Softmax_Layer.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/Stacked_RNN+Softmax_Layer/Softmax_Layer.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,8 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03Placeholder.py" />
-        <option value="$PROJECT_DIR$/01Hello_TensorFlow!.py" />
         <option value="$PROJECT_DIR$/02Computational_Graph.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/linear_regression.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/linear_regression2.py" />
@@ -101,6 +88,10 @@
         <option value="$PROJECT_DIR$/Recurrent_Neural_Network/Stacked_RNN+Softmax_Layer/Stacked_RNN.txt" />
         <option value="$PROJECT_DIR$/Recurrent_Neural_Network/Stacked_RNN+Softmax_Layer/Softmax_Layer.py" />
         <option value="$PROJECT_DIR$/Recurrent_Neural_Network/Stacked_RNN+Softmax_Layer/Softmax_Layer.txt" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/Dynamic_RNN/Dynamic_RNN.txt.py" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/Dynamic_RNN/Dynamic_RNN.txt" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_with_Time_Series_Data/RNN_with_Time_Series_Data1.py" />
+        <option value="$PROJECT_DIR$/Recurrent_Neural_Network/RNN_with_Time_Series_Data/RNN_with_Time_Series_Data1.txt" />
       </list>
     </option>
   </component>
@@ -113,10 +104,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
-    <option name="width" value="1346" />
-    <option name="height" value="697" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,6 +122,11 @@
             <path>
               <item name="Study_Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study_Machine_Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study_Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study_Machine_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Recurrent_Neural_Network" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +300,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3371522" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.31914893" />
@@ -312,8 +308,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.31914893" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23895253" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12783661" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24252492" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16012558" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" weight="0.27458397" />
@@ -604,9 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/Stacked_RNN+Softmax_Layer/Softmax_Layer.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Softmax_Classification/Softmax_Classification1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -618,6 +611,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/Dynamic_RNN/Dynamic_RNN.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="124" lean-forward="true" selection-start-line="4" selection-start-column="124" selection-end-line="4" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recurrent_Neural_Network/RNN_with_Time_Series_Data/RNN_with_Time_Series_Data1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
